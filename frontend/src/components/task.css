@@ -1,0 +1,23 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.task span {
+  flex-grow: 1;
+}
+
+button {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 10px;
+}
